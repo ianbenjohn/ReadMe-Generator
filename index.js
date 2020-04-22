@@ -17,7 +17,7 @@ const questions = [
     },
     {
         name: "description",
-        message: "Enter a description for your project"
+        message: "Enter a description for your project:"
     },
     {
         name: "install",

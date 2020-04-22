@@ -1,10 +1,10 @@
 
-![Badge Contributors](https://img.shields.io/github/contributors/ianbenjohn/asd)
+![Badge Contributors](https://img.shields.io/github/contributors/ianbenjohn/Big Cats in the Big City)
 
-# asd
+# Big Cats in the Big City
 
 ## Description
-asd
+Big Cats. Big City. Pretty self descriptive
 
 ## Table of Contents
     * [Installation](#installation)
@@ -15,19 +15,19 @@ asd
     * [Questions](#questions)
 
 ## Installation
-asd
+In the Big City
 
 ## Usage
-asd
+Meow Meow Peow Peow
 
 ## License
-asd
+Big Cat Distribution
 
 ## Contributers
-asd
+Big Al and Sammie McGee
 
 ## Tests
-asd
+Big Cat Tests
 
 ## Questions
 ![User Image](undefined)
