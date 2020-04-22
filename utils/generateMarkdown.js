@@ -1,4 +1,5 @@
 
+
 function generateMarkdown(data) {
     return `
 ![Badge Contributors](https://img.shields.io/github/contributors/${data.username}/${data.title})
