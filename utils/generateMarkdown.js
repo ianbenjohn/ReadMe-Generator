@@ -32,7 +32,7 @@ ${data.contributing}
 ${data.testing}
 
 ## Questions
-![User Image](${data.avatar.Url})
+![User Image](${data.avatarUrl})
 **Contact Email:** ${data.email}
 
 

@@ -41,6 +41,8 @@ const questions = [
     },
 ];
 
+
+
 function writeToFile(fileName, data) {
     const readMe = generateMarkdown(data);
     return writeFileAsync(fileName, readMe)

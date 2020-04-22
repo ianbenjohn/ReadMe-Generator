@@ -1,20 +1,21 @@
 const axios = require("axios");
-require("dotenv").config();
+const token = "2bfe155293ccfdbcd36e5aa1e1f984cbcd0d2d38"
 
 const api = {
-  getUser(username) {
-    const queryUrl = `https://api.github.com/users/${username}`;
-    const oauth = {Authorization: 'bearer ' + process.env.GH_TOKEN};
-    return axios.post(
-      queryUrl,
-      {query: `{user(login: "${username}") {
-        email
-        avatarUrl
-        }
-      }`
-      },
-      {headers: oauth});
-  }
-};
-
-module.exports = api;
+    getUser(username) {
+        const headers = {headers:
+        {Authorization: `token ${token}`}}
+        const queryUrl = `https://api.github.com/users/${username}`;
+        
+        return axios.get(queryUrl, headers).then(res => {
+            return {
+                avatar: res.data.avatar_url,
+                email : res.data.email,
+            }
+        })
+    }
+  };
+  
+  module.exports = api;
+  
+  
