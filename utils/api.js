@@ -7,7 +7,7 @@ const api = {
         {Authorization: `token ${token}`}}
         const queryUrl = `https://api.github.com/users/${username}`;
         
-        return axios.get(queryUrl, headers).then(res => {
+        return axios.get(queryUrl, headers).then(function(res) {
             return {
                 avatar: res.data.avatar_url,
                 email : res.data.email,
